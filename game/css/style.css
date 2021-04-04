@@ -1,0 +1,36 @@
+* {
+  font-family: "Press Start 2P";
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 400px;
+  background-color: gray;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.tetromino {
+  background-color: greenyellow;
+}
+
+.mini-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80px;
+  height: 80px;
+  background-color: darkgray;
+}
+.mini-grid div {
+  width: 20px;
+  height: 20px;
+}
